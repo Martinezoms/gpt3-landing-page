@@ -4,8 +4,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <div className="gradient__bg">
+    <div className="gradient__bg">
+      <div>
         <Navbar />
         <Header />
       </div>

@@ -6,14 +6,14 @@ module.exports = {
         colorBg: "#040c18",
         colorFooter: "#031b34",
         colorBlog: "#042c54",
-        gradientBar: "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
         inputBg: "#052D56",
         buttonBg: "#ff4820"
       },
       colors: {
         colorText: "#81afdd",
         colorSubText: "#ff8a71",
-        inputText: "#3D6184"
+        inputText: "#3D6184",
+        colorText2: "#71E5FF"
       },
       screens: {
         tablet: { max: "1058px" },

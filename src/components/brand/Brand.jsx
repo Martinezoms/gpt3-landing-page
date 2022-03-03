@@ -5,19 +5,19 @@ const Brand = () => {
   return (
     <div className="section__padding flex flex-wrap justify-center items-center brand">
       <div>
-        <img src={google} alt="google" />
+        <img src={google} alt="google" className="cursor-pointer" />
       </div>
       <div>
-        <img src={slack} alt="slack" />
+        <img src={slack} alt="slack" className="cursor-pointer" />
       </div>
       <div>
-        <img src={atlassian} alt="atlassian" />
+        <img src={atlassian} alt="atlassian" className="cursor-pointer" />
       </div>
       <div>
-        <img src={dropbox} alt="dropbox" />
+        <img src={dropbox} alt="dropbox" className="cursor-pointer" />
       </div>
       <div>
-        <img src={shopify} alt="shopify" />
+        <img src={shopify} alt="shopify" className="cursor-pointer" />
       </div>
     </div>
   );
