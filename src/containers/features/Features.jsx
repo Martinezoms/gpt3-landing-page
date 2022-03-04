@@ -26,7 +26,7 @@ const Features = () => {
         <h1 className="gradient__text text-[34px] leading-[45px] font-extrabold max-w-[426px] small:text-[28px] small:leading-[38px]">
           The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
         </h1>
-        <p className="text-colorSubText text-[16px] leading-[30px] font-medium cursor-pointer mt-8">
+        <p className="text-colorSubText text-[16px] leading-[30px] font-medium cursor-pointer mt-8 hover-effect">
           Request Early Access to Get Started
         </p>
       </div>

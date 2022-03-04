@@ -15,7 +15,7 @@ const CTA = () => {
       <div className="flex flex-1 justify-end items-center">
         <button
           type="button"
-          className="bg-black text-white rounded-[40px] font-bold text-[18px] leading-[30px] py-4 px-8 tablet:text-[12px]"
+          className="bg-black text-white rounded-[40px] font-bold text-[18px] leading-[30px] py-4 px-8 tablet:text-[12px] hover-effect"
         >
           Get Started
         </button>

@@ -14,7 +14,9 @@ const WhatGPT3 = () => {
         <h1 className="gradient__text max-w-[510px] text-[34px] leading-[45px] font-extrabold tablet:mt-4 mid:text-[24px] mid:leading-[40px]">
           The possibilities are beyond your imagination
         </h1>
-        <p className="text-colorSubText text-[16px] leading-[30px] font-medium cursor-pointer">Explore The Library</p>
+        <p className="text-colorSubText text-[16px] leading-[30px] font-medium cursor-pointer hover-effect">
+          Explore The Library
+        </p>
       </div>
       <div className="flex flex-row flex-wrap mt-8 whatgpt3-container">
         <Feature

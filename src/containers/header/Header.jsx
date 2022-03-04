@@ -17,15 +17,15 @@ const Header = () => {
           Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence
           way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
         </p>
-        <div className="w-full my-8 mr-4 flex text-[20px] leading-[27px] mid:text-sm mid:leading-[24px] small:text-[12px] small:leading-[18px]">
+        <div className="w-full my-8 mr-4 flex text-[15px] leading-[27px] mid:text-sm mid:leading-[24px] small:text-[12px] small:leading-[18px]">
           <input
             type="email"
             placeholder="Your Email Address"
-            className=" rounded-l-md bg-inputBg focus:outline-none text-inputText flex-[2] w-full min-h-[50px] p-5 small:p-2 small:h-[25px]"
+            className=" rounded-l-md bg-inputBg focus:outline-none text-inputText flex-[2] w-full min-h-[50px] p-4 small:p-2 small:h-[25px]"
           />
           <button
             type="button"
-            className="text-white font-bold p-5 rounded-r-md bg-buttonBg flex-[0.6] w-full min-h-[50px] small:p-2 small:h-[25px]"
+            className="text-white font-bold p-4 rounded-r-md bg-buttonBg flex-[0.6] w-full min-h-[50px] small:p-2 small:h-[25px] hover-effect"
           >
             Get Started
           </button>

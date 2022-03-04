@@ -9,8 +9,8 @@ const Footer = () => {
           Do you want to step in to the future before others
         </h1>
       </div>
-      <div className=" border border-solid border-white p-6 cursor-pointer">
-        <p className="text-[18px] leading-[21px]">Request Early Access</p>
+      <div className=" border border-solid border-white p-6 cursor-pointer hover-effect">
+        <p className="text-[18px] leading-[21px">Request Early Access</p>
       </div>
       <div className="flex justify-between items-start flex-wrap text-left w-full px-48 mt-48 mb-24 small:px-8">
         <div className="flex flex-col w-[250px] m-4 mb-8">
