@@ -4,9 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .link-div {
+    @apply flex flex-col justify-start;
+  }
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 body {
@@ -16,6 +31,8 @@ body {
   font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation-duration: 2s;
+  animation-name: fade;
 }
 
 code {

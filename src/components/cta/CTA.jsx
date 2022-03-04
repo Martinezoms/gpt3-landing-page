@@ -2,7 +2,10 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="gradient__bar flex justify-between items-center p-12 rounded-[10.7236px] m-16 tablet:p-10 mid:flex-col mid:gap-8 small:mx-8 my-16">
+    <div
+      className="gradient__bar flex justify-between items-center p-12 rounded-[10.7236px] m-16 tablet:p-10 mid:flex-col mid:gap-8 small:mx-8 my-16"
+      data-aos="fade-up"
+    >
       <div className="flex-1 justify-start mid:justify-center">
         <p className="text-[12px] leading-[30px]">Request Early Access to Get Started</p>
         <h3 className="text-[24px] leading-[45px] font-extrabold small:text-[18px]">

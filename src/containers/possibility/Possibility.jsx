@@ -4,10 +4,10 @@ import PossibilityImg from "../../assets/possibility.png";
 const Possibility = () => {
   return (
     <div id="possibility" className="section__padding flex justify-between tablet:flex-col">
-      <div className="flex flex-1 justify-start items-center mr-4 tablet:my-6">
+      <div className="flex flex-1 justify-start items-center mr-4 tablet:my-6" data-aos="zoom-in" data-aos-delay="200">
         <img src={PossibilityImg} alt="possibility" className="w-full h-full" />
       </div>
-      <div className="flex flex-col flex-1 justify-end items-start tablet:mt-8">
+      <div className="flex flex-col flex-1 justify-end items-start tablet:mt-8" data-aos="fade-up" data-aos-delay="300">
         <h4 className="text-colorText2 text-[16px] leading-[30px] font-medium mb-4">
           Request Early Access to Get Started
         </h4>
