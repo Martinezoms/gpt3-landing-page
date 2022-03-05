@@ -57,7 +57,7 @@ const Navbar = () => {
             <RiMenu3Line size={27} className="cursor-pointer hover-effect" onClick={() => setToggleMenu(true)} />
           )}
           {toggleMenu && (
-            <div className="scale-up-center nav-menu-link flex justify-end items-end flex-col text-right bg-colorFooter p-8 absolute top-10 right-0 mt-4 min-w-[210px] rounded shadow small:top-[20px]">
+            <div className="scale-up-center nav-menu-link flex justify-end items-end flex-col text-right bg-colorFooter p-8 absolute top-10 right-0 mt-4 min-w-[210px] rounded shadow small:top-[20px] z-20">
               <div>
                 <Menu />
               </div>
